@@ -1,0 +1,13 @@
+syntax = "proto3";
+package check;
+
+service Check {
+    rpc Pong(Empty)returns(Response){}
+}
+
+message Empty{
+
+}
+message Response{
+    string resp = 1;
+}
