@@ -7,6 +7,6 @@ Follow [this link](https://grpc.io/docs/quickstart/go/) for set up basic grpc se
 # Operation
 1) `cd /server`
 2) `go run main.go`
-3) `cd client`
+3) `cd /client`
 4) `go run main.go`
 You can see a `pong` response, since the client in background made a `ping` call to the server.
